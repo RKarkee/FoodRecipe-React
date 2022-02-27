@@ -23,5 +23,30 @@
   border: 2px solid aquamarine;
   border-radius: 4px;
   color: rgb(48, 36, 36);
+  cursor: pointer;
+
+}
+.app__submit:hover{
+  padding: 6px 16px;
+  font-size: 15px;
+  margin-left: 6px;
+  background-color: rgb(48, 36, 36);
+  border: 2px solid aquamarine;
+  border-radius: 4px;
+  color: aquamarine;
+  cursor: pointer;
+
+}
+.app__recipes{
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 230px 230px;
+  align-items: baseline;
+}
+
+.app__healthLabels{
+  padding: 6px 8px;
+  margin-left: 6px;
+  border-radius: 4px;
 
 }
